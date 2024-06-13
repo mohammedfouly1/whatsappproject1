@@ -1,0 +1,18 @@
+.LoginForm {
+    display        : flex;
+    flex-direction : column;
+    height         : 300px;
+    justify-content: space-around;
+
+
+}
+
+/* .InputText {
+
+    background-color: rgba(77, 78, 78, 0.116) !important;
+} */
+
+
+.LoginButton {
+    background-color: var(--theme-Color-Secondary) !important;
+}

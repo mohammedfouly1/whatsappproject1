@@ -1,0 +1,11 @@
+.SignupForm {
+    display        : flex;
+    flex-direction : column;
+    height         : 300px;
+    justify-content: space-around;
+
+}
+
+.SignupButton {
+    background-color: var(--theme-Color-Secondary) !important;
+}

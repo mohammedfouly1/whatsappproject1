@@ -1,0 +1,67 @@
+.Container {
+  display   : flex;
+  height    : 100vh;
+  width     : 100vw;
+  overflow-x: hidden;
+
+}
+
+
+
+.SidebarContainer {
+  flex              : .25;
+  overflow          : scroll;
+  height            : 100vh;
+  position          : sticky;
+  top               : 0;
+  -ms-overflow-style: none;
+  scrollbar-width   : none;
+}
+
+.SidebarContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.chatContainer {
+
+  flex            : .85;
+  border-left     : 1px solid var(--border-Color);
+  display         : flex;
+  align-items     : center;
+  justify-content : space-around;
+  flex-direction  : column;
+  background-color: var(--loginBg-Color);
+}
+
+
+
+.Logo {
+  position: relative;
+  width   : 30vw;
+  height  : 30vh;
+  margin  : 20px;
+
+
+}
+
+.Author>h3>a {
+  color: var(--theme-Color-Secondary);
+}
+
+.IndexFooterLogo {
+  border-radius   : 20px;
+  height          : 150px;
+  background-color: whitesmoke;
+  display         : flex;
+  justify-content : space-around;
+  align-items     : center;
+  width           : 100%;
+
+}
+
+.LogoVercel {
+  background-color: whitesmoke;
+  position        : relative;
+  width           : 100px;
+  height          : 50px;
+}

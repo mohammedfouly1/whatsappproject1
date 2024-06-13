@@ -1,0 +1,33 @@
+.Logo {
+    position: relative;
+    width   : 45vw;
+    height  : 45vh;
+    margin  : 20px;
+
+
+}
+
+.mediaQueryMsg {
+    text-align: center;
+}
+
+/* .Logo.Min {
+    width : 20vw;
+    height: 20vh;
+
+} */
+
+.Login_Container {
+    background-color: var(--loginBg-Color);
+    height          : 100vh;
+    width           : 100vw;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+}
+
+.LoginButton {
+    width           : 200px !important;
+    background-color: var(--theme-Color-Secondary) !important;
+}

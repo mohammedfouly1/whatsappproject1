@@ -1,0 +1,66 @@
+.ChatHeader {
+    position        : sticky;
+    background-color: var(--header-Color);
+    top             : 0px;
+    height          : 80px;
+    padding         : 10px;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    color           : var(--text-Color);
+    z-index         : 100;
+
+}
+
+.ChatMessageContainer {
+    background-color: var(--chat-Screen-Bg);
+    min-height      : 90vh;
+    overflow-y      : hidden;
+    padding         : 20px;
+
+}
+
+.HeaderInfo {
+    flex       : 1;
+    margin-left: 20px;
+}
+
+.HeaderInfo>h3 {
+    margin-bottom: 3px;
+}
+
+.HeaderInfo>p {
+    font-size: 14px;
+    color    : var(--text-Color-Info);
+}
+
+
+.ChatInputContainer {
+    display         : flex;
+    align-items     : center;
+    padding         : 14px;
+    position        : sticky;
+    bottom          : 0;
+    background-color: var(--chat-Input-bg);
+    z-index         : 100;
+
+}
+
+.Input {
+    font-size       : 16px;
+    color           : var(--button-text-color);
+    flex            : 1;
+    outline         : 0;
+    border          : none;
+    background-color: var(--sidebar-bgColor-hover);
+    padding         : 20px;
+    margin-left     : 15px;
+    margin-right    : 15px;
+    border-radius   : 10px;
+}
+
+
+
+.EndOfMessage {
+    margin-bottom: 70px;
+}

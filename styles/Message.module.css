@@ -1,0 +1,34 @@
+.MessageContainer {}
+
+.MessageElement {
+    width         : fit-content;
+    padding       : 15px;
+    padding-bottom: 25px;
+    border-radius : 8px;
+    margin        : 10px;
+    min-width     : 60px;
+
+    position        : relative;
+    text-align      : right;
+    background-color: var(--theme-Color);
+}
+
+.Receiver {
+    background-color: var(--chat-Receiver-Bg-Color);
+    text-align      : left;
+}
+
+.Sender {
+    margin-left     : auto;
+    background-color: var(--chat-Sender-Bg-Color);
+}
+
+.timestampSpan {
+    color     : var(--chat-timeStamp-Color);
+    padding   : 10px;
+    font-size : 9px;
+    position  : absolute;
+    bottom    : 0;
+    text-align: right;
+    right     : 0;
+}

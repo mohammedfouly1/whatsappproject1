@@ -1,0 +1,90 @@
+.container {
+
+    max-width       : 400px;
+    min-height      : 110vh;
+    border-right    : 1px solid var(--border-Color);
+    background-color: var(--sidebar-bgColor);
+
+
+}
+
+.Header {
+    display         : flex;
+    position        : sticky;
+    top             : 0;
+    z-index         : 1;
+    background-color: var(--sidebarHeader-bgColor);
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 15px;
+    height          : 80px;
+    border-bottom   : 3px solid var(--border-Color);
+    color           : var(--text-Color);
+}
+
+.UserAvatar {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.UserAvatar:hover {
+    opacity: 0.8;
+}
+
+
+.SearchContainer {
+    display      : flex;
+    align-items  : center;
+    padding      : 20px;
+    border-radius: 2px;
+}
+
+.SeachInput {
+    padding-left    : 15px;
+    outline-width   : 0;
+    border          : 0;
+    flex            : 1;
+    height          : 40px;
+    border-radius   : 20px;
+    background-color: var(--sidebar-bgColor-hover);
+}
+
+.newChatInput {
+    width  : 100% !important;
+    display: flex;
+
+}
+
+.ChatInput {
+    outline-width   : 0;
+    border          : 0;
+    flex            : 1;
+    text-align      : center;
+    background-color: var(--theme-Color-Secondary);
+    padding         : 10px;
+}
+
+.ChatButton {
+    color        : var(--button-text-color) !important;
+    display      : inline-block;
+    border-top   : 2px solid var(--border-Color) !important;
+    border-bottom: 2px solid var(--border-Color) !important;
+}
+
+.SidebarButton {
+    color           : var(--text-Color) !important;
+    width           : 100% !important;
+    border-top      : .5px solid var(--border-Color) !important;
+    border-bottom   : .5px solid var(--border-Color) !important;
+    background-color: var(--theme-Color-Primary) !important;
+
+}
+
+.AvatarPanel {
+    position        : absolute;
+    top             : 65px;
+    background-color: var(--theme-Color-Secondary);
+    padding         : 10px;
+    border-radius   : 10px;
+    cursor          : pointer;
+}
